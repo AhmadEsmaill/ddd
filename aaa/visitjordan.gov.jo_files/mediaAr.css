@@ -1,0 +1,52 @@
+@media only screen and (max-width: 1240px){
+	.container {width: 1170px;}
+}
+@media only screen and (max-width: 1199px){
+	.container {width: 970px;}
+	.travelpart {padding-bottom: 375px;}
+	.col-xs-12.labelp {padding-top: 0px;}
+	.col-xs-12.fieldp {
+		padding-right: 0px;
+		margin-top: 10px;
+	}
+}
+@media only screen and (max-width: 991px){
+	.container {width: 750px;}
+	.cform .fieldp {
+		padding-right: 0px;
+		margin-top: 10px;
+	}
+	.cform .labelp {
+		padding-top: 0px;
+		padding-left: 0px;
+	}
+	.cform .optbox {height: initial; padding-bottom: 7px;}
+	.cform .radiorow, .nkcheckbox {margin-top: 5px; margin-bottom: 5px;}
+	.footer p {width: 100%; text-align: center;}
+	.footer .social {width: 100%; text-align: center;}
+	.footer .social a {float: none; display: inline-block; margin: 0 3px; vertical-align: top;}
+}
+@media only screen and (max-width: 767px){
+	.container {width: auto;}
+	.ctitle h3 {font-size: 24px; padding-bottom: 25px;}
+	.travelpart {padding-top: 50px; padding-bottom: 265px;}
+	.travelpart .travelform {padding: 30px;}
+	.travelpart .travelform .text {padding-top: 20px;}
+	.cform .confirmopt {margin-top: 0px;}
+	.btnbox {margin-top: 10px;}
+	.errormsg {height: initial; line-height: initial; padding: 15px 15px 15px 60px;}
+}
+@media only screen and (max-width: 639px){
+	.ctitle h3:before {width: 390px;}
+	.travelpart {padding-bottom: 185px;}
+	.travelpart .travelform {padding: 30px 20px;}
+}
+@media only screen and (max-width: 479px){
+	.ctitle h3:before {width: 290px;}
+	.travelpart {padding-bottom: 155px;}
+	.header .logo:after {display: none;}
+	.header .logo {width: 100%; text-align: center;}
+}
+@media only screen and (max-width: 359px){
+	.footer .social a {margin: 0 2px;}
+}
